@@ -99,12 +99,7 @@
             <groupId>org.iq80.snappy</groupId>
             <artifactId>snappy</artifactId>
             <version>0.2</version>
-        </dependency>
-        <!-- <dependency>
-        <groupId>com.sun.jna</groupId>
-        <artifactId>jna</artifactId>
-        <version>3.0.5</version>
-        <dependency>-->
+	    </dependency>
         <dependency>
             <groupId>net.java.dev.jna</groupId>
             <artifactId>jna</artifactId>
@@ -127,20 +122,7 @@
                     <source>1.6</source>
                     <target>1.6</target>
                 </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <configuration>
-                    <executable>java</executable>
-                    <arguments>
-                        <argument>-Xmx8G</argument>
-                        <argument>-classpath</argument>
-                        <classpath/>                            
-                        <mainClass>it.uniroma1.lcl.csi.url.test.HazelCa</mainClass>
-                    </arguments>
-                </configuration>
-            </plugin>
+	    </plugin>
         </plugins>
         <resources>
             <resource>
